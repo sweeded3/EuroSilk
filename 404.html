@@ -3,24 +3,37 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#cc0000">
-    <title>Страница не найдена | EURO SILK</title>
+    <meta name="description" content="Страница не найдена на сайте EURO SILK.">
+    <meta name="theme-color" content="#c51d1d">
+    <title>404 | EURO SILK</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <style>
-        :root { --primary:#cc0000; --secondary:#ffcc00; --dark:#222; --light:#f8f8f8; --white:#fff; }
-        * { box-sizing:border-box; }
-        body { margin:0; min-height:100vh; display:grid; place-items:center; background:var(--light); color:var(--dark); font-family:Arial, sans-serif; line-height:1.6; }
-        main { width:min(100% - 32px, 640px); padding:36px; border-radius:18px; background:var(--white); box-shadow:0 10px 30px rgba(0,0,0,.12); text-align:center; }
-        h1 { margin:0 0 12px; color:var(--primary); font-size:clamp(2rem, 8vw, 4rem); }
-        a { display:inline-block; margin-top:18px; padding:12px 22px; border-radius:999px; background:var(--primary); color:var(--white); font-weight:700; text-decoration:none; }
-        a:hover { background:#a90000; }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <main>
-        <h1>404</h1>
-        <p>Страница не найдена. Возможно, адрес был изменён или введён с ошибкой.</p>
-        <a href="index.html">Вернуться на главную</a>
+<body class="utility-page utility-page-dark">
+    <main class="error-shell">
+        <div class="error-backdrop">
+            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1800&q=80" alt="">
+        </div>
+        <div class="error-overlay"></div>
+        <div class="container error-content">
+            <a href="index.html" class="brand-lockup error-brand" aria-label="EURO SILK — на главную">
+                <img src="logo-mark.svg" alt="" class="brand-mark" width="48" height="48">
+                <span class="brand-copy">
+                    <strong>EURO <span>SILK</span></strong>
+                    <small>Страница не найдена</small>
+                </span>
+            </a>
+            <p class="eyebrow">404</p>
+            <h1>Похоже, эта страница уже не на маршруте.</h1>
+            <p>Вернемся на главную и продолжим с каталогом, контактами или быстрым запросом в WhatsApp.</p>
+            <div class="hero-actions">
+                <a href="index.html" class="btn btn-primary">На главную</a>
+                <a href="index.html#contacts" class="btn btn-secondary">Открыть контакты</a>
+            </div>
+        </div>
     </main>
 </body>
 </html>

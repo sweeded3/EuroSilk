@@ -4,147 +4,36 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Политика конфиденциальности сайта EURO SILK.">
-    <meta name="theme-color" content="#cc0000">
+    <meta name="theme-color" content="#c51d1d">
     <title>Политика конфиденциальности | EURO SILK</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --primary: #cc0000;
-            --secondary: #ffcc00;
-            --dark: #222222;
-            --muted: #666666;
-            --light: #f8f8f8;
-            --white: #ffffff;
-            --line: #e8e8e8;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            min-width: 320px;
-            background: var(--light);
-            color: var(--dark);
-            font-family: 'Noto Sans', Arial, sans-serif;
-            line-height: 1.7;
-        }
-
-        a {
-            color: var(--primary);
-            font-weight: 700;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-            text-underline-offset: 3px;
-        }
-
-        .container {
-            width: min(100% - 30px, 980px);
-            margin: 0 auto;
-        }
-
-        header {
-            background: var(--white);
-            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .header-inner {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 20px;
-            min-height: 84px;
-        }
-
-        .logo {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            color: var(--primary);
-            font-family: 'Montserrat', Arial, sans-serif;
-            font-size: 1.55rem;
-            font-weight: 800;
-        }
-
-        .logo span {
-            color: var(--secondary);
-        }
-
-        main {
-            padding: 54px 0;
-        }
-
-        .card {
-            padding: 34px;
-            border-radius: 16px;
-            background: var(--white);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        }
-
-        h1,
-        h2 {
-            font-family: 'Montserrat', Arial, sans-serif;
-            line-height: 1.25;
-        }
-
-        h1 {
-            margin-bottom: 18px;
-            color: var(--primary);
-            font-size: clamp(2rem, 4vw, 2.6rem);
-        }
-
-        h2 {
-            margin: 28px 0 12px;
-            font-size: 1.35rem;
-        }
-
-        p,
-        li {
-            color: var(--muted);
-        }
-
-        ul {
-            padding-left: 22px;
-        }
-
-        .notice {
-            margin: 22px 0;
-            padding: 16px 18px;
-            border-left: 4px solid var(--secondary);
-            background: #fff8d5;
-            color: var(--dark);
-        }
-
-        footer {
-            padding: 24px 0 34px;
-            color: #777777;
-            text-align: center;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
-        <div class="container header-inner">
-            <a href="index.html" class="logo" aria-label="EURO SILK — на главную">EURO <span>SILK</span></a>
-            <a href="index.html#contacts">Контакты</a>
+<body class="utility-page">
+    <header class="utility-header">
+        <div class="container utility-header-inner">
+            <a href="index.html" class="brand-lockup" aria-label="EURO SILK — на главную">
+                <img src="logo-mark.svg" alt="" class="brand-mark" width="48" height="48">
+                <span class="brand-copy">
+                    <strong>EURO <span>SILK</span></strong>
+                    <small>Политика конфиденциальности</small>
+                </span>
+            </a>
+            <a href="index.html#contacts" class="utility-link">Контакты</a>
         </div>
     </header>
 
-    <main>
-        <div class="container">
-            <article class="card">
+    <main class="utility-main">
+        <div class="container utility-container">
+            <article class="utility-card">
+                <p class="eyebrow">Юридическая информация</p>
                 <h1>Политика конфиденциальности</h1>
                 <p>Эта страница описывает, какие данные могут использоваться при отправке запроса через сайт EURO SILK.</p>
 
-                <div class="notice">
+                <div class="utility-note">
                     Сайт размещается как статическая страница. Форма не хранит данные на сервере сайта: при отправке открывается WhatsApp или email-клиент пользователя.
                 </div>
 
@@ -171,8 +60,10 @@
         </div>
     </main>
 
-    <footer>
-        <div class="container">© 2026 EURO SILK</div>
+    <footer class="utility-footer">
+        <div class="container">
+            <p>2026 EURO SILK</p>
+        </div>
     </footer>
 </body>
 </html>

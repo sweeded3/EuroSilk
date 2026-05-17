@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="EURO SILK">
   <defs>
-    <linearGradient id="a" x1="10" y1="8" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+    <linearGradient id="mark-fill" x1="10" y1="8" x2="54" y2="56" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#d32525"/>
       <stop offset="1" stop-color="#8d1010"/>
     </linearGradient>
   </defs>
   <rect width="64" height="64" rx="18" fill="#12171d"/>
-  <rect x="8" y="8" width="48" height="48" rx="14" fill="url(#a)"/>
+  <rect x="8" y="8" width="48" height="48" rx="14" fill="url(#mark-fill)"/>
   <path d="M21 22h22v5H27v5h12v5H27v5h16v5H21V22Z" fill="#f5efe4"/>
   <path d="M47 18h-8l-5 8h8l5-8Zm-1 20H31l-6 8h15l6-8Z" fill="#d8ac49"/>
 </svg>
